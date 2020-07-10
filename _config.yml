@@ -8,25 +8,48 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: MM
-email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
-search: true
+remote_theme: mmistakes/minimal-mistakes
+
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+locale                   : "en-US"
+title                    : "Víctor Colombo"
+name                     : &name "Víctor Cora Colombo" # &name is a YAML anchor which can be *referenced later
+description              : &description "Hello there! I'm Víctor and this is my website. Here I will talk about my projects and write some articles about interesting stuff."
+url                      : https://vccolombo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+repository               : "vccolombo/vccolombo.github.io"
+# teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+# logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+# masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+# breadcrumbs            : false # true, false (default)
+words_per_minute         : 200
+
+search                   : false # true, false (default)
+search_full_content      : false # true, false (default)
+
+author:
+  name   : *name # *name is a YAML reference pointing to the &anchor earlier
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : "Computer Engineering student @ UFSCar. Passionate about Python, cybersec, Android and learning new things"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/vccolombo"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/vcoracolombo/"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/vccolombo"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/vcoracolombo/"
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -48,6 +71,8 @@ include:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+encoding: "utf-8"
+
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
@@ -57,35 +82,13 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+  machine-learning:
+    output: true
+    permalink: /:collection/:path/
 
 defaults:
   # _posts
@@ -106,6 +109,22 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: false
+      share: true
+  # _machine-learning
+  - scope:
+      path: ""
+      type: machine-learning
+    values:
+      layout: single
+      author_profile: false
+      share: true
 
 category_archive:
   type: liquid
