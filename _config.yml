@@ -31,6 +31,7 @@ author:
   name   : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Computer Engineering student @ UFSCar. Passionate about Python, cybersec, Android and learning new things"
+  location: "São Carlos, SP, Brazil"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"

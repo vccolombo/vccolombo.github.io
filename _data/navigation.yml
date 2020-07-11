@@ -7,5 +7,5 @@ main:
   #   url: /machine-learning/
   # - title: "Cybersec"
   #   url: /cybersecurity/
-  - title: "About"
-    url: /about/
+  # - title: "About"
+  #   url: /about/
