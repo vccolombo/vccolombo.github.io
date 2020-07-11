@@ -9,7 +9,7 @@ author_profile: true
 
 # About me
 
-I'm currently a 5th-year computer engineering student at the Federal University of São Carlos.
+I'm currently a 5th-year computer engineering student at the Federal University of São Carlos, Brazil.
 
 You can check my projects on the [projects page](/projects/). 
 

@@ -8,7 +8,7 @@ header:
 ---
 
 # Motivation
-I started this project after noticing that I was missing a lot of games when they became free-to-keep for a limited time on Steam. Steam does not publish on its front page when a game is free (like Epic Games does, for example), so you have to check periodically in places like Reddit or [steamdb](steamdb.info/sales) to avoid missing these free games.
+I started this project after noticing that I was missing a lot of games when they became free-to-keep for a limited time on Steam. Steam does not publish on its front page when a game is free (like Epic Games does, for example), so you have to check periodically in places like Reddit or [steamdb](https://steamdb.info/sales) to avoid missing these free games.
 
 Having this in mind, I started thinking on a way to always be informed when a game is free-to-keep in Steam. At the same time, the COVID-19 pandemic gave me a lot of free time to work on. I decided that I wanted to create something that I could show to other people and they would like to use it.
 
