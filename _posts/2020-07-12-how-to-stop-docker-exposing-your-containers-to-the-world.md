@@ -72,7 +72,7 @@ tcp   0   0   127.0.0.1:1234  0.0.0.0:*   LISTEN
 ...
 ```
 
-However, [some people reported](https://github.com/moby/moby/issues/22054#issuecomment-214496744) that even explicitly referencing `127.0.0.1`, the container could still be accessed from outside. For an extra layer of security, you could also modify the default Docker behavior and stop it from tampering with the `iptables` altogether. For more info on how to do this, take a look at the links I provided at the end of the post.
+However, [some people reported](https://github.com/moby/moby/issues/22054#issuecomment-214496744) that even explicitly referencing `127.0.0.1`, the container could still be accessed from outside. For an extra layer of security, you can also modify the default Docker behavior and stop it from tampering with the `iptables` altogether. For more info on how to do this, take a look at the links I provided at the end of the post.
 
 ## Conclusion
 
