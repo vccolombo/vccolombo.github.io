@@ -30,7 +30,7 @@ However, let's take a look at the open ports in our host:
 ```console
 $ netstat -tuln | grep LISTEN
 ...   
-tcp6       0      0 :::1234                   :::*                    LISTEN     
+tcp6  0   0   :::1234   :::*  LISTEN     
 ...
 ```
 
@@ -68,7 +68,7 @@ Now our application is only accessible inside the host machine:
 ```console
 $ netstat -tuln | grep LISTEN
 ...   
-tcp        0      0 127.0.0.1:1234          0.0.0.0:*               LISTEN 
+tcp   0   0   127.0.0.1:1234  0.0.0.0:*   LISTEN 
 ...
 ```
 
@@ -80,10 +80,10 @@ We saw how Docker can expose your containers to the world if not used correctly.
 
 Some interesting reading to follow on if you are interested:
 
-https://github.com/moby/moby/issues/22054
+[https://github.com/moby/moby/issues/22054](https://github.com/moby/moby/issues/22054)
 
-https://www.jeffgeerling.com/blog/2020/be-careful-docker-might-be-exposing-ports-world
+[https://www.jeffgeerling.com/blog/2020/be-careful-docker-might-be-exposing-ports-world](https://www.jeffgeerling.com/blog/2020/be-careful-docker-might-be-exposing-ports-world)
 
-https://fralef.me/docker-and-iptables.html
+[https://fralef.me/docker-and-iptables.html](https://fralef.me/docker-and-iptables.html)
 
-https://blog.viktorpetersson.com/2014/11/03/the-dangers-of-ufw-docker.html
+[https://blog.viktorpetersson.com/2014/11/03/the-dangers-of-ufw-docker.html](https://blog.viktorpetersson.com/2014/11/03/the-dangers-of-ufw-docker.html)
