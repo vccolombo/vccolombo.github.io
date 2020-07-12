@@ -40,7 +40,7 @@ For example, if you have a MongoDB container running on your laptop while using 
 
 ## Why is Docker doing this?
 
-By default, Docker edits the `iptables` entries in the host machine, bypassing firewall configurations. It means that even if the sysadmin correctly configured the machine to deny all incoming traffic, Docker will ignore it and create a hole in the firewall. This behavior sure provides some ease o use, but create a lot of vulnerabilities, especially with a user that just started using Docker. Check [this thread](https://github.com/moby/moby/issues/22054) for more insight on the issue.
+By default, Docker edits the `iptables` entries in the host machine, bypassing firewall configurations. It means that even if the sysadmin correctly configured the machine to deny all incoming traffic, Docker will ignore it and create a hole in the firewall. This behavior sure provides some ease of use, but create a lot of vulnerabilities, especially with a user that just started using Docker. Check [this thread](https://github.com/moby/moby/issues/22054) for more insight on the issue.
 
 ## How to avoid this situation
 
