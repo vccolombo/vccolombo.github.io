@@ -44,7 +44,7 @@ By default, Docker edits the `iptables` entries in the host machine, bypassing f
 
 ## How to avoid this situation
 
-The first thing to notice when trying to fix this is that if all applications that communicate with the container are also containerized, it's not even necessary to expose a port on the host. Just [let Docker manage the connections](https://docs.docker.com/compose/compose-file/) and reference the container inside the source code using service defined in `docker-compose.yml`. While looking for Docker examples on Google I noticed a lot of people still don't use this feature even when both applications are containerized.
+The first thing to notice when trying to fix this is that if all applications that communicate with the container are also containerized, it's not even necessary to expose a port on the host. Just [let Docker manage the connections](https://docs.docker.com/compose/compose-file/) and reference the container inside the source code using the service defined in `docker-compose.yml`. While looking for Docker examples on Google I noticed a lot of people still don't use this feature even when both applications are containerized.
 
 However, if you need an application in the host to connect to the container, the way to not expose your container to the world is to explicitly declare that the port should only be accessible from the localhost. This can be achieved prepending `127.0.0.1` to the host port number in `docker run`:
 
