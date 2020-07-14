@@ -1,5 +1,5 @@
 ---
-title: "Freegamesnewsletter"
+title: "Free Games Newsletter"
 excerpt: "Subscribe to be notified when a game is free for a limited time on Steam"
 date: 2020-07-13T23:01:30-03:00
 header:
