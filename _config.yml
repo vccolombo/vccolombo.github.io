@@ -86,14 +86,10 @@ plugins:
 collections:
   projects:
     output: true
-    permalink: /:collection/:path/
-    order:
-      - freegamesnewsletter.md
-      - download-gitignore.md
-      - pyctorize.md
+    permalink: /:collection/:title/
   machine-learning:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:title/
 
 defaults:
   # _posts
