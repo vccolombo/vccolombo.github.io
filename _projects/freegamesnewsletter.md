@@ -36,7 +36,7 @@ In the process of learning and implementing this solution, I found an inconsiste
 
 With this, I had a crawler that finds all free-to-keep games on Steam.
 
-![Image of the email subscribers receive when a game becomes free-to-keep](/assets/images/projects/freegamesnewsletter-newsletter.png)
+{% include figure image_path="/assets/images/projects/freegamesnewsletter-newsletter.png" alt="Image of the email subscribers receive when a game becomes free-to-keep" caption="Image of the email subscribers receive when a game becomes free-to-keep" %}
 
 ## Getting the subscribers: freegamesnewsletter.tech
 
@@ -50,7 +50,7 @@ When users subscribe, they receive a confirmation email. This decision was made 
 
 Finally, the subscribers are stored in a NoSQL database, which allowed me to learn more about this type of database.
 
-![Free Games Newsletter uses double opt-in to confirm subscribers](/assets/images/projects/freegamesnewsletter-double-opt-in.png)
+{% include figure image_path="/assets/images/projects/freegamesnewsletter-double-opt-in.png" alt="Free Games Newsletter uses double opt-in to confirm subscribers" caption="Free Games Newsletter uses double opt-in to confirm subscribers" %}
 
 ## Sending the emails: microservices
 Initially, both the site and the newsletter application were in charge of sending emails. The newsletter application sent the emails with the free games, and the site backend sent subscription confirmation emails. 
