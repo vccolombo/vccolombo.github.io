@@ -87,6 +87,10 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
+    order:
+      - freegamesnewsletter.md
+      - download-gitignore.md
+      - pyctorize.md
   machine-learning:
     output: true
     permalink: /:collection/:path/
