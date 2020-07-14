@@ -86,8 +86,10 @@ plugins:
 collections:
   projects:
     output: true
+    permalink: /:collection/:title/
   machine-learning:
     output: true
+    permalink: /:collection/:title/
 
 defaults:
   # _posts
@@ -114,7 +116,6 @@ defaults:
       type: projects
     values:
       layout: single
-      permalink: /:collection/:title/
       author_profile: true
       share: true
   # _machine-learning
@@ -123,7 +124,6 @@ defaults:
       type: machine-learning
     values:
       layout: single
-      permalink: /:collection/:title/
       author_profile: true
       share: true
 
