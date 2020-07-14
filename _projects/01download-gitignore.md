@@ -1,5 +1,6 @@
 ---
 title: "download-gitignore"
+slug: "download-gitignore"
 excerpt: "Easily download .gitignore files from the terminal"
 header:
     teaser: /assets/images/projects/dgi-teaser.png
