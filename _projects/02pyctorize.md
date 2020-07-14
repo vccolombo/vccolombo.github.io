@@ -1,6 +1,6 @@
 ---
 title: "Pyctorize"
-slug: "Pyctorize"
+slug: "pyctorize"
 excerpt: "Extract frames of videos from the terminal"
 header:
     teaser: /assets/images/projects/pyctorize-teaser.png

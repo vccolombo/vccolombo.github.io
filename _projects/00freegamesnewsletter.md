@@ -1,6 +1,6 @@
 ---
 title: "Free Games Newsletter"
-slug: "Free Games Newsletter"
+slug: "freegamesnewsletter"
 excerpt: "Subscribe to be notified when a game is free for a limited time on Steam"
 header:
     image: /assets/images/projects/freegamesnewsletter-site.png
