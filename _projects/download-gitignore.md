@@ -1,7 +1,6 @@
 ---
 title: "dgi"
 excerpt: "Easily download .gitignore files from the terminal"
-order: 02
 header:
     teaser: /assets/images/projects/dgi-teaser.png
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Pyctorize"
 excerpt: "Extract frames of videos from the terminal"
-order: 01
 header:
     teaser: /assets/images/projects/pyctorize-teaser.png
 ---
