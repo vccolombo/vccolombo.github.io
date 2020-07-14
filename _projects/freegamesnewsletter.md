@@ -1,12 +1,13 @@
 ---
-title: "freegamesnewsletter"
+title: "Freegamesnewsletter"
 excerpt: "Subscribe to be notified when a game is free for a limited time on Steam"
 date: 2020-07-13T23:01:30-03:00
-link: https://www.freegamesnewsletter.tech/
 header:
     image: /assets/images/projects/freegamesnewsletter-site.png
     teaser: /assets/images/projects/freegamesnewsletter-teaser.png
 ---
+
+**Check Free Games Newsletter: [https://www.freegamesnewsletter.tech/](https://www.freegamesnewsletter.tech/)**
 
 I started this project after noticing that I was missing a lot of games when they became free-to-keep for a limited time on Steam. Steam does not publish on its front page when a game is free (like Epic Games does, for example), so you have to check periodically in places like Reddit or [steamdb](https://steamdb.info/sales) to avoid missing these free games.
 
