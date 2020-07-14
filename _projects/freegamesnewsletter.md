@@ -1,6 +1,7 @@
 ---
 title: "Free Games Newsletter"
 excerpt: "Subscribe to be notified when a game is free for a limited time on Steam"
+order: 03
 header:
     image: /assets/images/projects/freegamesnewsletter-site.png
     teaser: /assets/images/projects/freegamesnewsletter-teaser.png
