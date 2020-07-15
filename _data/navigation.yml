@@ -5,7 +5,7 @@ main:
     url: /projects/
   # - title: "Machine Learning"
   #   url: /machine-learning/
-  # - title: "Cybersec"
-  #   url: /cybersecurity/
+  - title: "Cybersec"
+    url: /cybersecurity/
   - title: "About"
     url: /
