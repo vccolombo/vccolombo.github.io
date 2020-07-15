@@ -8,6 +8,7 @@ header:
 ---
 
 **Check WeatherNow: [WeatherNow site](https://vccolombo-weather-site.herokuapp.com/)**
+
 **WeatherNow Repository: [https://github.com/vccolombo/WeatherNow](https://github.com/vccolombo/WeatherNow)**
 
 WeatherNow is a website to get information about the current weather in a given location. Search any location in the world and see how is the climate there right now.
