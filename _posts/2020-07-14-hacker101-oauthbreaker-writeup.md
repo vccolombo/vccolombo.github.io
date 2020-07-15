@@ -46,7 +46,7 @@ We know intents can be passed to the app using the intent filter we saw earlier.
 Using adb, send an intent to the app that follows the format provided in the intent filter in `AndroidManifest.xml`:
 
 ```terminal
-adb shell am start -a "android.intent.action.VIEW" -n com.hacker101.oauth/.MainActivity -d "oauth://login/?redirect_uri=https://example.com/" 
+$ adb shell am start -a "android.intent.action.VIEW" -n com.hacker101.oauth/.MainActivity -d "oauth://login/?redirect_uri=https://example.com/" 
 Starting: Intent { act=android.intent.action.VIEW dat=oauth://login/?redirect_uri=https://example.com/ cmp=com.hacker101.oauth/.MainActivity }
 ```
 
@@ -83,7 +83,7 @@ You might need to store this on a web server. You can use Github pages or the AW
 Finally, craft an intent and send it with adb:
 
 ```terminal
-adb shell am start -d "oauth://final/?uri=<link-of-the-exploit>"
+$ adb shell am start -d "oauth://final/?uri=<link-of-the-exploit>"
 Starting: Intent { dat=oauth://final/?uri=<link-of-the-exploit> }
 ```
 
