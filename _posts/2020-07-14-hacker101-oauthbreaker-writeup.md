@@ -1,5 +1,6 @@
 ---
 title: "Hacker101 Oauthbreaker Writeup"
+excerpt: "Android challenge from the [Hacker101 CTF](https://ctf.hacker101.com/ctf). This challenge consists of an application with a simple Oauth authentication using WebViews."
 date: 2020-07-14T12:59:30-03:00
 categories:
   - Cybersecurity
