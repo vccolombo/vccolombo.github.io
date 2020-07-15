@@ -1,6 +1,6 @@
 ---
 title: "How to stop Docker exposing your containers to the world"
-excerpt: "Docker opens holes in the firewall by default, allowing other machines in the same network to access your containers. See how to avoid this and secure your applications from external access."
+excerpt: "See how to avoid exposing you container's ports and secure your applications from external access."
 date: 2020-07-12T17:51:30-03:00
 categories:
   - Blog
