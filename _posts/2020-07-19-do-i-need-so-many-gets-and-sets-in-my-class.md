@@ -1,7 +1,7 @@
 ---
 title: "Do I need so many gets and sets in my class?"
 excerpt: "People prefer things that are easy to use. Use abstractions to hide the hard stuff from the users and allow everyone to enjoy what you create."
-date: 2020-07-19T16:48:30-03:00
+date: 2020-07-19T16:57:30-03:00
 categories:
   - Blog
 tags:
@@ -101,8 +101,10 @@ The user does not want to know how many seconds passed since the day started. He
 
 ## If my class stores an attribute in the same way the user interacts with it, can I make the attribute public?
 
-You shouldn't, because of encapsulation. If later your class changes to store this attribute differently, it should not impact the user. If the attributes were to be accessed directly, a change in the class would require a refactor of all the code that uses this class. Protect yourself from your future self.
+You shouldn't. If later your class changes to store this attribute differently, it should not impact the user. If the attributes were to be accessed directly, a change in the class would require a refactor of all the code that uses this class. Protect yourself from your future self.
+
+Also, because of safety, which I talked about at the beginning of the post. A bug in the class behavior could be caused anywhere in the code if you expose your attributes this way. 
 
 ## Overview
 
-Users of a class should not need to know its intricate internals. Abstraction guarantees that everyone without domain knowledge can use the object easily (both in real life and in programming). Also, use private attributes to avoid the class users to make unintended modifications that can lead to unexpected behavior. Be sure to lead them through the happy path you planned for the class.
+Users of a class should not need to know its intricate internals. Abstraction guarantees that everyone without domain knowledge can use the object easily (both in real life and in programming). Also, use private attributes to avoid class users to make unintended modifications that can lead to unexpected behavior. Be sure to lead them through the happy path you planned for the class.
