@@ -22,7 +22,7 @@ The other reason is **abstraction**, which is the main topic of this post.
 
 The idea of abstraction is that the user of the class should be able to interact with the object in a friendly, simple way, without needing to know the hard concepts behind it. What is being hidden is not the attribute itself (sometimes it is, but this is out of scope here), but the hard concepts behind it.
 
-## Hide the hard stuff
+### Hide the hard stuff
 
 Let's walk through an example. If you were to create a class `Car`, how would you implement it? Like this, maybe:
 
@@ -99,7 +99,7 @@ class Clock {
 
 The user does not want to know how many seconds passed since the day started. He wants to know the hour and the minute of the day, so he won't be late to work. This is valid to the `Car` example too. Internally, the speed is calculated using the angular velocity of the wheel. Only when the speed is presented in the velocimeter, the system changes it to km/h and display it.
 
-## If my class stores an attribute in the same way the user interacts with it, can I make the attribute public?
+### If my class stores an attribute in the same way the user interacts with it, can I make the attribute public?
 
 You shouldn't. If later your class changes to store this attribute differently, it should not impact the user. If the attributes were to be accessed directly, a change in the class would require a refactor of all the code that uses this class. Protect yourself from your future self.
 
