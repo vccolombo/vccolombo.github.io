@@ -1,7 +1,4 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 title: 'Víctor Cora Colombo'
 layout: single
 author_profile: true
@@ -25,6 +22,6 @@ You can check my projects on the [projects page](/projects/).
 
 ## Skills
 
-- **Programming Languages** - Python, C/C++, Nodejs
+- **Programming Languages** - Python, C/C++, Node.js
 - **Machine Learning** – MapReduce, Apache Spark, scikit-learn, pandas
 - **Others** - Linux, Git, SQL, Mongodb, Docker

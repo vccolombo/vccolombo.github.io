@@ -41,7 +41,7 @@ With this, I had a crawler that finds all free-to-keep games on Steam.
 
 ## Getting the subscribers: freegamesnewsletter.tech
 
-A newsletter is useless without subscribers. So I needed to create a web page for my users to subscribe to the newsletter. This was made using Nodejs. I already had some familiarity with Nodejs, and it became an opportunity to train my skills with a real project.
+A newsletter is useless without subscribers. So I needed to create a web page for my users to subscribe to the newsletter. This was made using Node.js. I already had some familiarity with Node.js, and it became an opportunity to train my skills with a real project.
 
 The implementation was made using the [Express](https://expressjs.com/) framework. I learned a lot about the framework's best practices during the development process. Also, I had to take care of securing my user's inputs to avoid compromising my application. This was interesting and made me learn a lot about techniques to avoid malicious user inputs. I also had the opportunity to learn about _async/await_ as a way to fix [callback hell](https://blog.avenuecode.com/callback-hell-promises-and-async/await).
 

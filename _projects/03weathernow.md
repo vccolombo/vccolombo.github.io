@@ -11,7 +11,7 @@ header:
 
 WeatherNow is a website to get information about the current weather in a given location. Search any location in the world and see how is the climate there right now.
 
-This project was made as part of [The Complete Node.js Developer Course](https://www.udemy.com/course/the-complete-nodejs-developer-course-2/). It was a learning project focused on fetching data from a public API and presenting it using Nodejs. It was my first experience with the [Express framework](https://expressjs.com/), which I'm still using in my new projects. 
+This project was made as part of [The Complete Node.js Developer Course](https://www.udemy.com/course/the-complete-nodejs-developer-course-2/). It was a learning project focused on fetching data from a public API and presenting it using Node.js. It was my first experience with the [Express framework](https://expressjs.com/), which I'm still using in my new projects. 
 
 Even though the objective was not to learn HTML or CSS, this project challenged me to set-up a usable frontend interface, a skill that I had almost no knowledge at the time.
 
