@@ -1,5 +1,5 @@
 ---
-title: 'Víctor Cora Colombo'
+title: "Víctor Cora Colombo"
 layout: single
 author_profile: true
 ---
@@ -8,12 +8,12 @@ author_profile: true
 
 I'm currently a 5th-year computer engineering student at the Federal University of São Carlos, Brazil.
 
-You can check my projects on the [projects page](/projects/). 
+You can check my personal projects on the [projects page](/projects/).
 
 ## Previous work experiences
 
 - **Instituto de Pesquisas Eldorado** - Summer Intern  
- I participated in Eldorado's 2020 summer internship program as my first work experience. There I implemented a web interface to help to manage an internal application. I also had the opportunity to work on an Android app, solving a UI-blocking issue leading to a 10x performance increase in a screen.
+  I participated in Eldorado's 2020 summer internship program as my first work experience. There I implemented a web interface to help to manage an internal application. I also had the opportunity to work on an Android app, solving a UI-blocking issue leading to a 10x performance increase in a screen.
 
 ## Education
 
@@ -22,6 +22,7 @@ You can check my projects on the [projects page](/projects/).
 
 ## Skills
 
-- **Programming Languages** - Python, C/C++, Node.js
-- **Machine Learning** – MapReduce, Apache Spark, scikit-learn, pandas
-- **Others** - Linux, Git, SQL, Mongodb, Docker
+- **Programming Languages** - Python, C/C++, Java, Node.js, JavaScript
+- **Databases**: SQL, MongoDB
+- **Data Science** – MapReduce, Apache Spark, scikit-learn, pandas
+- **Others** - Linux, Git, Docker
