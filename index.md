@@ -25,4 +25,4 @@ You can check my personal projects on the [projects page](/projects/).
 - **Programming Languages** - Python, C/C++, Java, Node.js, JavaScript
 - **Databases**: SQL, MongoDB
 - **Data Science** – MapReduce, Apache Spark, scikit-learn, pandas
-- **Others** - Linux, Git, Docker
+- **Others** - Linux, Git, Docker, Android
