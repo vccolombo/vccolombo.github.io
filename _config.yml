@@ -10,27 +10,27 @@
 
 remote_theme: mmistakes/minimal-mistakes
 
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-locale                   : "en-US"
-title                    : "Víctor Colombo"
-name                     : &name "Víctor Cora Colombo" # &name is a YAML anchor which can be *referenced later
-description              : &description "Hello there! I'm Víctor and this is my website. Here I will talk about my projects and write some articles about interesting stuff."
-url                      : https://vccolombo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-repository               : "vccolombo/vccolombo.github.io"
+locale: "en-US"
+title: "Víctor Colombo"
+name: &name "Víctor Cora Colombo" # &name is a YAML anchor which can be *referenced later
+description: &description "Hello there! I'm Víctor and this is my website. Here I will talk about my projects and write some articles about interesting stuff."
+url: https://vccolombo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+repository: "vccolombo/vccolombo.github.io"
 # teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 # masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
+words_per_minute: 200
 
-search                   : false # true, false (default)
-search_full_content      : false # true, false (default)
+search: false # true, false (default)
+search_full_content: false # true, false (default)
 
 author:
-  name   : *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Computer Engineering student. Passionate about Python, cybersec, Android and learning new things"
+  name: *name # *name is a YAML reference pointing to the &anchor earlier
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "Computer Engineering student. Passionate about Python, cybersec, Android and learning new things"
   location: "São Carlos, SP, Brazil"
   links:
     - label: "GitHub"
@@ -87,9 +87,6 @@ collections:
   projects:
     output: true
     permalink: /:collection/:title/
-  machine-learning:
-    output: true
-    permalink: /:collection/:title/
 
 defaults:
   # _posts
@@ -114,14 +111,6 @@ defaults:
   - scope:
       path: ""
       type: projects
-    values:
-      layout: single
-      author_profile: true
-      share: true
-  # _machine-learning
-  - scope:
-      path: ""
-      type: machine-learning
     values:
       layout: single
       author_profile: true

@@ -3,9 +3,9 @@ main:
     url: /blog/
   - title: "Projects"
     url: /projects/
-  # - title: "Machine Learning"
-  #   url: /machine-learning/
-  - title: "Cybersec"
+  - title: "Data Science"
+    url: /data-science/
+  - title: "Cybersecurity"
     url: /cybersecurity/
   - title: "About"
     url: /
