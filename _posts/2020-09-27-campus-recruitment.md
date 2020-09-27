@@ -1,7 +1,7 @@
 ---
 title: "Campus Recruitment"
 excerpt: "Data science project for the Campus Recruitment problem - How to choose the best MBA and land a great job?"
-date: 2020-09-27T11:38:30-03:00
+date: 2020-09-27T11:52:30-03:00
 categories:
   - Data Science
 tags:
@@ -67,8 +67,6 @@ There are no missing values besides salary when the person is not employed. The 
 
 More information can be found in the [dataset page](https://www.kaggle.com/benroshan/factors-affecting-campus-placement).
 
-<hr>
-
 ## Analysis
 
 Image 1 shows more students find a job after completing the MBA than those who don't, indicating that this is an unbalanced problem. However, I will not balance it. Instead, I chose to use a score to compare the models that take unbalance into account.
@@ -76,8 +74,6 @@ Image 1 shows more students find a job after completing the MBA than those who d
 The problem with oversampling is that [it changes the data in a way that might affect the real-world representation of it](https://towardsdatascience.com/handling-imbalanced-datasets-in-machine-learning-7a0e84220f28). It could lead to bad results.
 
 {% include figure image_path="/assets/images/data-science/campus-recruitment/PlacementStatus.png" alt="Placement Status distribution" caption="Image 1: Placement Status distribution." %}
-
-<br>
 
 ### Employability Test
 
@@ -89,8 +85,6 @@ However, there **is** a positive relation between salaries and the employability
 
 {% include figure image_path="/assets/images/data-science/campus-recruitment/SalaryEmployabilityTest.png" alt="Relation between employability test grades and salary" caption="Image 3: Relation between employability test grades and salary." %}
 
-<br>
-
 ### Gender
 
 Analyzing the effects of gender on placement and salary, the conclusion was that women that came from men-dominated fields (areas with way more men, like Science and Commerce) tend to receive lower salaries. There is not enough data to conclude about women vs men when they had a background different from science or commerce, but the data available suggests women receive higher salaries in this scenario. In general, however, men receive higher salaries in both MBA specializations.
@@ -99,15 +93,11 @@ Analyzing the effects of gender on placement and salary, the conclusion was that
 
 {% include figure image_path="/assets/images/data-science/campus-recruitment/MBASpecSalary.png" alt="Relation between MBA field of choice and salary" caption="Image 5: Relation between MBA field of choice and salary." %}
 
-<br>
-
 ### Scores during the MBA course
 
 The data suggests that having good grades impact positively on the salary a person will receive when employed.
 
 {% include figure image_path="/assets/images/data-science/campus-recruitment/MBAGradesSalary.png" alt="Relation between grades during the MBA course and salary" caption="Image 6: Relation between grades during the MBA course and salary." %}
-
-<br>
 
 ### Student's past
 
@@ -123,8 +113,6 @@ Also, there is a positive relation between grades in lower education and getting
 
 For the salary, though, there seems to be no evident relation between it and grades in previous education. The correlation returned a very small value (< 0.1).
 
-<br>
-
 ### MBA field
 
 The MBA area of choice is also a huge factor in salary, which can be seen in Image 9. An MBA in Finances leads to a higher salary than HR ones. Also, the Finances MBA results in a **WAY** better employability rate. Students that enrolled in an HR MBA struggled more to find a job.
@@ -133,8 +121,6 @@ The MBA area of choice is also a huge factor in salary, which can be seen in Ima
 
 {% include figure image_path="/assets/images/data-science/campus-recruitment/MBASpecEmployability.png" alt="Relation between MBA area and employability." caption="Image 10: Relation between MBA area and employability." %}
 
-<br>
-
 ### Previous work experience
 
 This is another factor that greatly affects the salary and chance to find a job. Having worked before led to almost 10% higher salary on average. It also results in almost 50% better chances to be employed!
@@ -142,8 +128,6 @@ This is another factor that greatly affects the salary and chance to find a job.
 {% include figure image_path="/assets/images/data-science/campus-recruitment/WorkExperienceSalary.png" alt="Relation between having work experience and salary." caption="Image 11: Relation between having work experience and salary." %}
 
 {% include figure image_path="/assets/images/data-science/campus-recruitment/WorkExperienceEmployability.png" alt="Relation between having work experience and employability." caption="Image 12: Relation between having work experience and employability." %}
-
-<hr>
 
 ## Conclusions
 
@@ -155,8 +139,6 @@ If the student's objective is to maximize the chance of finding a job after the 
 
 The Jupyter Notebook (link to the repository at the end of this text) contains a machine learning model to predict if an MBA student from this university will get a job using Random Forest. It scored 86.3% of precision.
 
-<br>
-
 ### Problem 2: What are the major factors that affect the salary?
 
 For this one, the important features were the MBA area, Employability Test grades, college degree specialization area, gender, and work experience.
@@ -165,19 +147,13 @@ Here again, choosing Mkt&Fin is a better option if the focus is on salary. Howev
 
 The amount of data available was not enough to create great models, but a Linear Regression was capable of returning good estimations.
 
-<br>
-
 ### Problem 3: Can the institution predict if the person will be successful before they are accepted?
 
 The best features here are the same as problem 1. So it is the same solution.
 
-<hr>
-
 ## References
 
 https://www.kaggle.com/benroshan/factors-affecting-campus-placement
-
-<hr>
 
 ## Appendix
 

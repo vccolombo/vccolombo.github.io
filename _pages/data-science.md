@@ -1,6 +1,6 @@
 ---
 title: Data Science
 layout: category
-permalink: /data-science/
+permalink: /datascience/
 taxonomy: Data Science
 ---
