@@ -151,10 +151,6 @@ The amount of data available was not enough to create great models, but a Linear
 
 The best features here are the same as problem 1. So it is the same solution.
 
-## References
-
-https://www.kaggle.com/benroshan/factors-affecting-campus-placement
-
 ## Appendix
 
 Check the source code in the [Github repository](https://github.com/vccolombo/campus-recruitment).
