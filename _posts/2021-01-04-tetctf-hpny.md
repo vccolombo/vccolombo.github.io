@@ -1,5 +1,5 @@
 ---
-title: "Reading files in PHP without numbers, quotes, spaces and most other symbols."
+title: "Reading files in PHP without numbers, quotes, spaces and most other symbols"
 excerpt: "Writeup for the HPNY Web chall from [TetCTF 2021](https://ctftime.org/event/1213)."
 date: 2021-01-04T16:23:30-03:00
 categories:
