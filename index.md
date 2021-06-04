@@ -18,7 +18,7 @@ You can check my personal projects on the [projects page](/projects/).
 ## Education
 
 - **Computer Engineering** - Federal University of São Carlos  
-  Computer engineering student at UFSCar since 2016. Expected to graduate in December 2022.
+  Computer engineering student at UFSCar since 2016. Expected to graduate in 2022.
 
 
 <!-- TODO: Create the missing badges -->
