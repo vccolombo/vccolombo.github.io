@@ -3,8 +3,6 @@ main:
     url: /blog/
   - title: "Projects"
     url: /projects/
-  - title: "Data Science"
-    url: /datascience/
   - title: "Cybersecurity"
     url: /cybersecurity/
   - title: "About"
