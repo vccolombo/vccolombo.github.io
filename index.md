@@ -8,8 +8,6 @@ author_profile: true
 
 I'm currently a 5th-year computer engineering student at the Federal University of São Carlos, Brazil.
 
-You can check my personal projects on the [projects page](/projects/).
-
 ## Previous work experiences
 
 - **Instituto de Pesquisas Eldorado** - Summer Intern  
