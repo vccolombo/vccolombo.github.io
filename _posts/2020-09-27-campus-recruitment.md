@@ -3,6 +3,7 @@ title: "Campus Recruitment"
 excerpt: "Data science project for the Campus Recruitment problem - How to choose the best MBA and land a great job?"
 date: 2020-09-27T11:52:30-03:00
 categories:
+  - Blog
   - Data Science
 tags:
   - Data Science
