@@ -4,7 +4,6 @@ excerpt: "Data science project for the Campus Recruitment problem - How to choos
 date: 2020-09-27T11:52:30-03:00
 categories:
   - Data Science
-  - Blog
 tags:
   - Data Science
   - Machine Learning
