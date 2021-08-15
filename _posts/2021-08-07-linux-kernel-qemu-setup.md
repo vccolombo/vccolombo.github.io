@@ -43,6 +43,7 @@ To prepare the kernel for building, we need to set up the `.config` file. Fortun
 # from inside Linux-5.10.54 folder
 make defconfig # creates a .config file
 make kvmconfig # modifies .config to set up everything necessary for it to run on QEMU
+# or make kvm_guest.config in more recent kernels
 ```
 
 You can confirm it worked by `cat .config | grep KVM`:
